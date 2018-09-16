@@ -24,5 +24,11 @@ namespace GitBranching
 		{
 			return "Fixed another bug!";
 		}
+
+		private static int Sum(int first, int second)
+		{
+			return first * second;
+		}
+
 	}
 }
