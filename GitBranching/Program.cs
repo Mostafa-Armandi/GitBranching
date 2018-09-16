@@ -11,6 +11,12 @@ namespace GitBranching
 		static void Main(string[] args)
 		{
 			Console.WriteLine("First Commit Change");
+			Console.WriteLine(FixAnotherBug());
+		}
+
+		private static string FixAnotherBug()
+		{
+			return "Fixed another bug!";
 		}
 	}
 }
