@@ -13,6 +13,7 @@ namespace GitBranching
 			Console.WriteLine("First Commit Change");
 			Console.WriteLine(BugFix());
 			Console.WriteLine(FixAnotherBug());
+			Console.WriteLine(FixAnotherExtraBug());
 		}
 
 		private static string BugFix()
@@ -23,6 +24,11 @@ namespace GitBranching
 		private static string FixAnotherBug()
 		{
 			return "Fixed another bug!";
+		}
+
+		private static string FixAnotherExtraBug()
+		{
+			return "Fixed another extra bug!";
 		}
 
 		private static int Sum(int first, int second)
