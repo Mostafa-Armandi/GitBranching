@@ -14,6 +14,7 @@ namespace GitBranching
 			Console.WriteLine(BugFix());
 			Console.WriteLine(FixAnotherBug());
 			Console.WriteLine(FixAnotherExtraBug());
+			Console.WriteLine("local change on local master");
 		}
 
 		private static string BugFix()
