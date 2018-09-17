@@ -33,7 +33,8 @@ namespace GitBranching
 
 		private static int Sum(int first, int second)
 		{
-			return first * second;
+			var sum = first + second;
+			return sum;
 		}
 
 	}
